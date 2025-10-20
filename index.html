@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospital Clinic Patient portal</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="left-side-container">
+      <div class="logo-container">
+        <div class="patient-container">
+          <h1>PRIME CLINIC</h1>
+        </div>
+        <div class="icon-profile-container">
+          <button><span class="material-symbols-outlined"> menu </span></button>
+        </div>
+      </div>
+      <div class="main-menu-container">
+        <div class="main-menu-tag-container">
+          <div class="menu-title">
+            <h3>Main Menu</h3>
+          </div>
+          <div class="main-menu-container">
+            <div class="nav-container">
+              <div class="icon-container">
+                <span class="material-symbols-outlined"> dashboard </span>
+              </div>
+              <h3>Dashboard</h3>
+              <div class="icon-container">
+                <span class="material-symbols-outlined">
+                  keyboard_arrow_up
+                </span>
+              </div>
+            </div>
+            <div class="admin-container">
+              <h3>Admin Dashboard</h3>
+            </div>
+            <div class="doctor-container">
+              <h3>Doctor Dashboard</h3>
+            </div>
+            <div class="patient-container">
+              <h3>Patient Dashboard</h3>
+            </div>
+          </div>
+          <div class="nav-container">
+            <div class="icon-container">
+              <i class="fa-solid fa-user-doctor"></i>
+            </div>
+            <h3>Doctor</h3>
+          </div>
+          <div class="nav-container">
+            <div class="icon-container">
+              <span class="material-symbols-outlined"> recent_patient </span>
+            </div>
+            <h3>patient</h3>
+          </div>
+        </div>
+        <div class="other-menu-container">
+          <div class="other-tag-container">
+            <h3>Other Menu</h3>
+          </div>
+          <div class="nav-container">
+            <div class="icon-container">
+              <span class="material-symbols-outlined"> calendar_month </span>
+            </div>
+            <h3>Doctor schedule</h3>
+          </div>
+          <div class="nav-container">
+            <div class="icon-container">
+              <span class="material-symbols-outlined"> receipt </span>
+            </div>
+            <h3>Payroll</h3>
+          </div>
+          <div class="nav-container">
+            <div class="icon-container">
+              <span class="material-symbols-outlined"> chart_data </span>
+            </div>
+            <h3>chart</h3>
+          </div>
+        </div>
+        <hr />
+        <div class="help-settings-container">
+          <div class="other-tag-container">
+            <h3>Help & Settings</h3>
+          </div>
+          <div class="nav-container">
+            <div class="icon-container">
+              <span class="material-symbols-outlined"> order_approve </span>
+            </div>
+            <h3>Invoice</h3>
+          </div>
+          <div class="nav-container">
+            <div class="icon-container">
+              <span class="material-symbols-outlined"> settings </span>
+            </div>
+            <h3>Settings</h3>
+          </div>
+          <div class="nav-container">
+            <div class="icon-container">
+              <span class="material-symbols-outlined"> flag_2 </span>
+            </div>
+            <h3>Reports</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Right side details-->
+    <div class="right-side-container">
+      <div class="top-nav-container">
+        <div class="nav-container">
+          <button>
+            <span class="material-symbols-outlined"> search </span>
+            <input
+              type="text"
+              id="search"
+              placeholder="Search something here"
+            />
+            <label for="search"></label>
+          </button>
+        </div>
+        <div class="profile-notification-container">
+          <div class="icon-image-container">
+            <div class="icon-container">
+              <span class="material-symbols-outlined">
+                mark_unread_chat_alt
+              </span>
+            </div>
+            <div class="icon-container">
+              <span class="material-symbols-outlined"> notifications </span>
+            </div>
+          </div>
+          <div class="img-container">
+            <div class="image-text-container">
+              <img src="./image/profile.jpg" alt="Profile picture" />
+            </div>
+            <div class="text-container">
+              <h3>Liam Micheal</h3>
+              <p>Admin</p>
+            </div>
+            <div class="icon-container">
+              <span class="material-symbols-outlined">
+                keyboard_arrow_down
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-main-content">
+        <div class="title-container">
+          <h3>Dashboard</h3>
+        </div>
+        <div class="icon-tag-container"></div>
+        <div class="patient-board">
+          <p>Patient Dashboard</p>
+        </div>
+      </div>
+      <div class="appointment-tag-container">
+        <div class="text-cta-container">
+          <div class="welcome-text-container">
+            <div class="welcome-container">
+              <h2>Good Morning, Daniel Bruk</h2>
+            </div>
+            <div class="welcome-paragraph-container">
+              <p>
+                Have a neice day at work it seems like you're <br />
+                referring Daniel Bruk.
+              </p>
+            </div>
+            <div class="cta-container">
+              <button>Create Appointment</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="health-stats-container">
+        <div class="vitals-container">
+          <div class="health-vitality-container">
+            <div class="icon-container">
+              <span class="material-symbols-outlined"> health_metrics </span>
+            </div>
+            <div class="vital-text">
+              <h2>Heart Rate</h2>
+            </div>
+            <div class="vital-button">
+              <button>
+                <span class="material-symbols-outlined">
+                  arrow_upward_alt
+                </span>
+                <p>12%</p>
+              </button>
+            </div>
+          </div>
+          <div class="avatar-text-container">
+            <div class="value-container">
+              <h2>vs last month</h2>
+              <p>110 bpm</p>
+            </div>
+            <div class="medical-avatar-container">
+              <img src="./image/joachim.jpg" alt="patient rate" />
+            </div>
+          </div>
+        </div>
+        <div class="vitals-container">
+          <div class="health-vitality-container">
+            <div class="icon-container">
+              <span class="material-symbols-outlined"> monitor_heart </span>
+            </div>
+            <div class="vital-text">
+              <h2>Heart Rate</h2>
+            </div>
+            <div class="vital-button">
+              <button>
+                <span class="material-symbols-outlined">
+                  arrow_downward_alt
+                </span>
+                <p>-20%</p>
+              </button>
+            </div>
+          </div>
+          <div class="avatar-text-container">
+            <div class="value-container">
+              <h2>vs last month</h2>
+              <p>38.6 c</p>
+            </div>
+            <div class="medical-avatar-container">
+              <img src="./image/joshua.jpg" alt="patient rate" />
+            </div>
+          </div>
+        </div>
+        <div class="vitals-container">
+          <div class="health-vitality-container">
+            <div class="icon-container">
+              <span class="material-symbols-outlined"> heart_check </span>
+            </div>
+            <div class="vital-text">
+              <h2>Heart Rate</h2>
+            </div>
+            <div class="vital-button">
+              <button>
+                <span class="material-symbols-outlined">
+                  arrow_downward_alt
+                </span>
+                <p>-40%</p>
+              </button>
+            </div>
+          </div>
+          <div class="avatar-text-container">
+            <div class="value-container">
+              <h2>vs last month</h2>
+              <p>120 mm/Hg</p>
+            </div>
+            <div class="medical-avatar-container">
+              <img src="./image/joachim.jpg" alt="patient rate" />
+            </div>
+          </div>
+        </div>
+        <div class="vitals-container">
+          <div class="health-vitality-container">
+            <div class="icon-container">
+              <span class="material-symbols-outlined"> heart_check </span>
+            </div>
+            <div class="vital-text">
+              <h2>Heart Rate</h2>
+            </div>
+            <div class="vital-button">
+              <button>
+                <span class="material-symbols-outlined">
+                  arrow_downward_alt
+                </span>
+                <p>-10%</p>
+              </button>
+            </div>
+          </div>
+          <div class="avatar-text-container">
+            <div class="value-container">
+              <h2>vs last month</h2>
+              <p>7h 30m</p>
+            </div>
+            <div class="medical-avatar-container">
+              <img src="./image/judy.jpg" alt="patient rate" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="health-static-container">
+        <div class="health-profile-container">
+          <div class="health-tag">
+            <div class="health-container">
+              <h2>Static of your Health</h2>
+            </div>
+            <div class="health-tag">
+              <h2>72bmp</h2>
+              <p>
+                <span class="material-symbols-outlined"> arrow_outward </span
+                >40% vs last month
+              </p>
+            </div>
+            <div class="date-container">
+              <button>
+                2022
+                <span class="material-symbols-outlined"> stat_minus_1 </span>
+              </button>
+            </div>
+          </div>
+          <div class="calender-container">
+            <img src="./image/alexander.jpg" alt="chart" />
+          </div>
+        </div>
+        <div class="health-profile-container">
+          <div class="health-container">
+            <h2>Body Mass Index</h2>
+          </div>
+
+          <div class="date-container">
+            <div class="text-container">
+              <p>Underweight</p>
+            </div>
+            <div class="text-container">
+              <p>Normal(45.5)</p>
+            </div>
+            <div class="text-container">
+              <p>Overweight</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
